@@ -25,7 +25,7 @@ describe('properties', function() {
   });
 });
 
-describe('#addPassengers', function() {
+describe('#addPassenger', function() {
   var tardis;
   beforeEach(function() {
     tardis = new timeMachine("Doctor", "blue", 100, 40);
